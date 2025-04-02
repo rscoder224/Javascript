@@ -32,6 +32,39 @@ console.log(uniqueElements);
 
 
 
+// set 
+// collection of objects 
+// set are iterable 
+// each value must be unique 
+// sets can store data in it 
+
+
+
+const set1 = new Set([1,2,3,3,4,5,6,7]);
+
+
+set1.add(["item1,item2","item3"]);
+
+console.log(set1);
+
+
+if(set1.has(2)){
+    console.log("number 2 is present");
+}else{
+    console.log('number 2 is not present');
+}
+
+let length = 0;
+
+for(let fetch of set1){
+    length++;
+}
+
+console.log(length);
+
+
+
+
 
 
 
