@@ -12,6 +12,7 @@ console.log("hello Bro How are you are you getting Fine ")
 
 hello.ownproperty = ["Hareraam"];
 
+// only functions provide prototype prototype
+
 
 console.log(hello.ownproperty);
-
